@@ -13,7 +13,7 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "sst": "3.17.21",
-    "sst-wdk-world": "^0.0.4"
+    "sst-wdk-world": "^0.0.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

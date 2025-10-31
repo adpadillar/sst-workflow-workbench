@@ -5,6 +5,22 @@
 
 declare module "sst" {
   export interface Resource {
+    "MyWeb": {
+      "type": "sst.aws.Nextjs"
+      "url": string
+    }
+    "SchedulerRole": {
+      "arn": string
+      "type": "sst.sst.Linkable"
+    }
+    "WorkflowQueue": {
+      "type": "sst.aws.Queue"
+      "url": string
+    }
+    "WorkflowTable": {
+      "name": string
+      "type": "sst.aws.Dynamo"
+    }
   }
 }
 /// <reference path="sst-env.d.ts" />
